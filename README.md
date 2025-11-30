@@ -46,6 +46,8 @@ Example: [https://your-username.github.io/birthday-surprise/](https://your-usern
 
 ```
 src/
+  assets/
+    crush.png
   components/
     BirthdaySurprise/
       BirthdaySurprise.jsx
@@ -60,7 +62,7 @@ src/
         StepFiveFinal.jsx
 
 public/
-  crush.png  // Your memory picture
+  crush.png
 ```
 
 ---
