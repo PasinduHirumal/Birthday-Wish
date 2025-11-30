@@ -1,4 +1,4 @@
-import BirthdaySurprise from "./components/BirthdaySurprise";
+import BirthdaySurprise from "./pages/BirthdaySurprise";
 
 function App() {
   return (
