@@ -11,9 +11,6 @@ Perfect for surprising your crush, girlfriend, boyfriend, bestie, or anyone spec
 
 ## 🌐 Live Demo
 
-👉 **(Add your live link here after deployment)**
-Example: [https://your-username.github.io/birthday-surprise/](https://your-username.github.io/birthday-surprise/)
-
 ---
 
 ## ✨ Features
