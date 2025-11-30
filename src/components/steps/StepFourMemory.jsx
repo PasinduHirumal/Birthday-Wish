@@ -1,4 +1,5 @@
 import React from "react";
+import Crush from "../../assets/crush.png"
 import StepCard from "../StepCard";
 import PrimaryButton from "../PrimaryButton";
 
@@ -12,7 +13,7 @@ const StepFourMemory = ({ goToStep }) => {
       <div className="mb-6 flex flex-col items-center justify-center rounded-2xl bg-gradient-to-r from-pink-200 to-rose-200 p-6 sm:p-8">
         {/* Put your image in /public as crush.webp or update path */}
         <img
-          src="/crush.webp"
+          src={Crush}
           alt="Our memory"
           className="h-40 w-40 rounded-full object-cover shadow-md sm:h-48 sm:w-48"
         />
