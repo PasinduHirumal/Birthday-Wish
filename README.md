@@ -1,6 +1,3 @@
-Here is your **complete, ready-to-publish, beautifully formatted `README.md` file** — just copy, paste, and upload to GitHub.
-Everything is included: badges, demo link placeholder, screenshots placeholders, installation, customization, credits, and MIT license.
-
 ---
 
 # 🎉 Birthday Surprise 3D Experience 💖
