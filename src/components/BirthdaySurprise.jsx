@@ -73,8 +73,14 @@ const BirthdaySurprise = () => {
 
     const hearts = [];
     const colors = [
-      0xff6b6b, 0xff8e8e, 0xffb3b3, 0xffd8d8,
-      0xff9e9e, 0xffc1c1, 0xff6b8e, 0xff8eb3,
+      0xff6b6b,
+      0xff8e8e,
+      0xffb3b3,
+      0xffd8d8,
+      0xff9e9e,
+      0xffc1c1,
+      0xff6b8e,
+      0xff8eb3,
     ];
 
     for (let i = 0; i < 25; i++) {
@@ -188,9 +194,18 @@ const BirthdaySurprise = () => {
   };
 
   return (
-    <div className="relative h-screen w-full overflow-hidden bg-gradient-to-br from-pink-300 via-rose-100 to-violet-100">
-
-      <div ref={canvasContainerRef} className="absolute inset-0 z-0 pointer-events-none" />
+    <div
+      className="
+        relative min-h-screen w-full 
+        overflow-x-hidden 
+        bg-gradient-to-br from-pink-300 via-rose-100 to-violet-100
+      "
+    >
+      {/* Three.js canvas background */}
+      <div
+        ref={canvasContainerRef}
+        className="absolute inset-0 z-0 pointer-events-none"
+      />
 
       {/* Progress bar */}
       <div className="absolute top-4 left-1/2 -translate-x-1/2 z-20 w-11/12 max-w-md">
@@ -202,12 +217,10 @@ const BirthdaySurprise = () => {
         </div>
       </div>
 
-      <div className="relative z-10 h-full flex items-center justify-center px-4">
-        <div className="w-full max-w-3xl">
-
-          {currentStep === 1 && (
-            <StepOneIntro next={() => setCurrentStep(2)} />
-          )}
+      {/* Content */}
+      <div className="relative z-10 flex min-h-screen items-center justify-center px-3 sm:px-4 py-10 sm:py-16">
+        <div className="w-full max-w-4xl">
+          {currentStep === 1 && <StepOneIntro next={() => setCurrentStep(2)} />}
 
           {currentStep === 2 && (
             <StepTwoWish

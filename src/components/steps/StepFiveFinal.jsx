@@ -12,16 +12,18 @@ const StepFiveFinal = ({ prev, celebrate }) => (
         My Birthday Wish for You
       </h2>
 
-      <p className="mb-3 max-w-xl text-sm sm:text-base md:text-lg text-gray-700 mx-auto leading-relaxed">
-        May your year be filled with joy, laughter, and dreams that gently unfold into reality.
+      <p className="mb-3 max-w-xl text-xs sm:text-sm md:text-base text-gray-700 mx-auto leading-relaxed">
+        May your year be filled with joy, laughter, and dreams that gently
+        unfold into reality.
       </p>
 
-      <p className="mb-6 max-w-xl text-sm sm:text-base md:text-lg text-gray-700 mx-auto leading-relaxed">
-        I hope you always remember how special you are to me and to everyone lucky enough
-        to know you. You deserve all the love, happiness, and magic in the world. ✨
+      <p className="mb-6 max-w-xl text-xs sm:text-sm md:text-base text-gray-700 mx-auto leading-relaxed">
+        I hope you always remember how special you are to me and to everyone
+        lucky enough to know you. You deserve all the love, happiness, and
+        magic in the world. ✨
       </p>
 
-      <p className="mb-6 text-lg sm:text-xl font-semibold text-pink-600">
+      <p className="mb-6 text-base sm:text-lg md:text-xl font-semibold text-pink-600">
         Happy Birthday, my crush! ❤️
       </p>
 

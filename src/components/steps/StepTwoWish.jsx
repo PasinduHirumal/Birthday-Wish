@@ -6,19 +6,19 @@ import SecondaryButton from "../SecondaryButton";
 const StepTwoWish = ({ prev, next }) => (
   <StepCard>
     <div className="flex flex-col items-center text-center">
-      <div className="mb-4 text-4xl sm:text-5xl">🎉</div>
+      <div className="mb-4 text-3xl sm:text-4xl md:text-5xl">🎉</div>
 
-      <h2 className="mb-3 text-3xl sm:text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent">
+      <h2 className="mb-3 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold bg-gradient-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent">
         Happy Birthday!
       </h2>
 
-      <p className="mb-2 max-w-xl text-sm sm:text-base md:text-lg text-gray-700 mx-auto leading-relaxed">
+      <p className="mb-2 max-w-xl text-xs sm:text-sm md:text-base text-gray-700 mx-auto leading-relaxed">
         On your special day, I want you to know how truly amazing you are.
       </p>
 
-      <p className="mb-6 max-w-xl text-sm sm:text-base md:text-lg text-gray-700 mx-auto leading-relaxed">
-        Your smile brightens my world, your laughter is my favorite melody,
-        and your presence makes every moment feel magical. ✨
+      <p className="mb-6 max-w-xl text-xs sm:text-sm md:text-base text-gray-700 mx-auto leading-relaxed">
+        Your smile brightens my world, your laughter is my favorite melody, and
+        your presence makes every moment feel magical. ✨
       </p>
 
       <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
