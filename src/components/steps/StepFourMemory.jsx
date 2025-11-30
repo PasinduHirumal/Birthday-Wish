@@ -2,8 +2,9 @@ import React from "react";
 import Crush from "../../assets/crush.png"
 import StepCard from "../StepCard";
 import PrimaryButton from "../PrimaryButton";
+import SecondaryButton from "../SecondaryButton";
 
-const StepFourMemory = ({ goToStep }) => {
+const StepFourMemory = ({ prev, next }) => {
   return (
     <StepCard>
       <div className="mb-4 text-4xl sm:text-5xl">📸</div>
@@ -25,9 +26,10 @@ const StepFourMemory = ({ goToStep }) => {
         laughing together or just enjoying the silence, time with you is always
         special.
       </p>
-      <PrimaryButton onClick={() => goToStep(5)}>
-        One Last Thing
-      </PrimaryButton>
+      <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <SecondaryButton onClick={prev}>Back</SecondaryButton>
+        <PrimaryButton onClick={next}>What makes you special?</PrimaryButton>
+      </div>
     </StepCard>
   );
 };

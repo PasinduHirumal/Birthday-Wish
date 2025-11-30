@@ -2,8 +2,9 @@ import React from "react";
 import StepCard from "../StepCard";
 import PrimaryButton from "../PrimaryButton";
 import ReasonCard from "../ReasonCard";
+import SecondaryButton from "../SecondaryButton";
 
-const StepThreeReasons = ({ goToStep }) => {
+const StepThreeReasons = ({ prev, next }) => {
   return (
     <StepCard>
       <h2 className="mb-6 text-center text-3xl sm:text-4xl md:text-5xl font-bold bg-gradient-to-r from-pink-500 via-rose-500 to-amber-400 bg-clip-text text-transparent">
@@ -21,9 +22,11 @@ const StepThreeReasons = ({ goToStep }) => {
           Your passion and energy are contagious. You make life exciting!
         </ReasonCard>
       </div>
-      <PrimaryButton onClick={() => goToStep(4)}>
-        A Little Surprise
-      </PrimaryButton>
+
+      <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <SecondaryButton onClick={prev}>Back</SecondaryButton>
+        <PrimaryButton onClick={next}>What makes you special?</PrimaryButton>
+      </div>
     </StepCard>
   );
 };
