@@ -46,23 +46,34 @@ Example: [https://your-username.github.io/birthday-surprise/](https://your-usern
 
 ```
 src/
-  assets/
-    crush.png
-  components/
-    BirthdaySurprise/
-      BirthdaySurprise.jsx
-      StepCard.jsx
-      PrimaryButton.jsx
-      ReasonCard.jsx
-      steps/
-        StepOneIntro.jsx
-        StepTwoWish.jsx
-        StepThreeReasons.jsx
-        StepFourMemory.jsx
-        StepFiveFinal.jsx
-
-public/
-  crush.png
+│
+├── assets/
+│   └── crush.png
+│
+├── common/
+│   ├── PrimaryButton.jsx
+│   ├── ReasonCard.jsx
+│   ├── SecondaryButton.jsx
+│   ├── StepCard.jsx
+│   └── StepTransition.jsx
+│
+├── components/
+│   ├── background/
+│   │   └── HeartsBackground.jsx
+│   │
+│   └── steps/
+│       ├── StepFiveFinal.jsx
+│       ├── StepFourMemory.jsx
+│       ├── StepOneIntro.jsx
+│       ├── StepThreeReasons.jsx
+│       └── StepTwoWish.jsx
+│
+├── pages/
+│   └── BirthdaySurprise.jsx
+│
+├── App.jsx
+├── index.css
+└── main.jsx
 ```
 
 ---
