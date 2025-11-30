@@ -11,7 +11,6 @@ const StepFourMemory = ({ goToStep }) => {
         Remember When...
       </h2>
       <div className="mb-6 flex flex-col items-center justify-center rounded-2xl bg-gradient-to-r from-pink-200 to-rose-200 p-6 sm:p-8">
-        {/* Put your image in /public as crush.webp or update path */}
         <img
           src={Crush}
           alt="Our memory"
