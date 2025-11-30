@@ -10,7 +10,7 @@ const StepCard = ({ children, className = "" }) => (
       max-w-md sm:max-w-2xl lg:max-w-3xl 
       rounded-3xl bg-white/60 
       p-5 sm:p-8 md:p-10 
-      text-center shadow-xl backdrop-blur-xl 
+      text-center shadow-xl backdrop-blur-sm 
       transition-all duration-700
       ${className}
     `}
@@ -377,11 +377,11 @@ const BirthdaySurprise = () => {
         heart.position.y =
           data.originalY +
           Math.sin(time * data.speedY * 10 + data.floatSpeed) *
-            data.floatDistance;
+          data.floatDistance;
         heart.position.z =
           data.originalZ +
           Math.sin(time * data.speedZ * 10 + data.floatSpeed * 2) *
-            data.floatDistance;
+          data.floatDistance;
 
         heart.rotation.x += data.rotationSpeedX;
         heart.rotation.y += data.rotationSpeedY;
