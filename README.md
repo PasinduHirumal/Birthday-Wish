@@ -60,7 +60,7 @@ src/
         StepFiveFinal.jsx
 
 public/
-  crush.webp  // Your memory picture
+  crush.png  // Your memory picture
 ```
 
 ---
@@ -70,7 +70,7 @@ public/
 ### 1️⃣ Clone the Repository
 
 ```sh
-git clone https://github.com/your-username/birthday-surprise.git
+git clone https://github.com/PasinduHirumal/Birthday-Wish.git
 cd birthday-surprise
 ```
 
